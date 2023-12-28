@@ -35,7 +35,7 @@ function MainPage(props) {
             <Container>
                 <Button
                     title="글 작성하기"
-                    onClick{() => {
+                    onClick={() => {
                         navigate("/post-write");
                     }}
                 />
