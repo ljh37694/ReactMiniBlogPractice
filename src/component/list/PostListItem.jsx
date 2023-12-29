@@ -7,7 +7,7 @@ const Wraaper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justity-content: center;
+    justify-content: center;
     border: 1px solid grey;
     border-radius: 8px;
     cursor: pointer;

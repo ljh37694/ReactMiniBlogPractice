@@ -5,7 +5,8 @@ const Wraaper = styled.div`
     width: calc(100% - 32px);
     padding: 16px;
     display: flex;
-    flex-direction: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
     border: 1px solid grey;
     border-radius: 8px;
@@ -25,7 +26,7 @@ function CommentListItem(props) {
 
     return (
         <Wraaper>
-            <ContentText>{comment.comment}</ContentText>
+            <ContentText>{comment.content}</ContentText>
         </Wraaper>
     );
 }
