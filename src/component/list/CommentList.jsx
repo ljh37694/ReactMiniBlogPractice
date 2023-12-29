@@ -8,7 +8,7 @@ const Wraaper = styled.div`
     align-items: flex-start;
     justify-content: center;
 
-    & > * {
+    & {
         :not(:last-child) {
             margin-bottom: 16px;
         }
@@ -20,7 +20,7 @@ function CommentList(props) {
 
     return (
         <Wraaper>
-            {comments.map((comment) => {
+            {comments.map((comment , index) => {
                 return <CommentListItem key={comment.id} comment={comment} />;
             })}
         </Wraaper>
